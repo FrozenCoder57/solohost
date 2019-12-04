@@ -1,0 +1,22 @@
+{
+  "name": "solohost",
+  "version": "2.0.1",
+  "description": "Improved version of sololearn code host",
+  "main": "server.js",
+  "scripts": {
+    "test": "node test.js",
+    "start": "node server.js"
+  },
+  "author": "Sarthak Pokharel / FrozenCoder57",
+  "license": "ISC",
+  "engines": {
+    "node": "10.x"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "hash.js": "^1.1.7",
+    "heroku": "^7.35.0",
+    "is-url": "^1.2.4",
+    "request": "^2.88.0"
+  }
+}
